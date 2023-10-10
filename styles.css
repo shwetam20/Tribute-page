@@ -1,0 +1,86 @@
+html {
+font-size: 10px;
+}
+
+body {
+font-family: -apple-system, Arial, sans-serif;
+font-size: 1.6rem;
+line-height: 1.5;
+text-align: center;
+padding: 20px 5px;
+}
+
+main { 
+  border-radius: 5px;
+  background-color: grey;
+}
+
+header {
+   text-align: center;
+}
+
+h1{
+  padding-top: 40px;
+  font-size: 4rem;
+}
+
+#img-div {
+  background-color: white;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  object-fit: cover;
+}
+
+#img-caption {
+  Text-align: center;
+  margin-top: -40px;
+  padding: 10px;
+}
+
+h3 {
+padding-top: 40px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+ul {
+width: 50%;
+display: inline-block;
+//list-style: inside;
+list-style-position: outside;
+}
+
+li {
+padding: 10px;
+text-align: left;
+display: list-item;
+   }
+
+li::marker {
+  color: rgb(230, 230, 230);
+}
+
+ #quote {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: left;
+  }
+
+#contact {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+a {
+  color: rgb(50, 20, 255);
+}
