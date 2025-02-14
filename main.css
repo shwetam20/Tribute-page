@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --radius: 0.25rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+main {
+  background: #eee;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 3rem 0.8rem;
+}
+
+@media screen and (max-width: 520px) {
+  main {
+    margin: 0;
+  }
+}
+
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+header p {
+  margin-bottom: 1.5rem;
+}
+
+.img-container {
+  padding: 2rem 1rem;
+  background: white;
+  margin-bottom: 5rem;
+}
+
+.main-photo {
+  width: 100%;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.img-caption {
+  margin-top: 1rem;
+}
+
+@media (max-width: 520px) {
+  .img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+.time-line h3 {
+  margin-bottom: 5rem;
+}
+
+.content {
+  width: 70vw;
+  max-width: 55rem;
+  list-style-position: outside;
+  text-align: left;
+  text-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  line-height: 1.6;
+}
+
+.content li {
+  margin-bottom: 1.6rem;
+}
+
+.quote,
+.author {
+  margin: 0 auto;
+  max-width: 55rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.quote {
+  margin-bottom: 1.6rem;
+}
+
+.author {
+  margin-bottom: 5rem;
+}
